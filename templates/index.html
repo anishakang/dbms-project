@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+<h1>Dbms Project</h1>
+
+<table>
+	<tr><th>output<th></tr>
+	{% for item in alist %}
+	<tr><td>{{item}}</td><tr>
+	{% endfor %}
+</table>
+<br><br>
+<form name="passdata" action="." method="post">
+<label>name</label>
+<input type="text" name="name">
+<label>roll</label>
+<input type="text" name="roll">
+<input type="submit" value="submit">
+</form>
+</body>
+</html>
