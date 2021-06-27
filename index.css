@@ -237,3 +237,56 @@
 	top: 16px;
 	overflow: visible;
 }
+
+form{
+	font-family: Gotham
+}
+
+
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px grey;
+  border-radius: 4px;
+  background-color: rgb(224,224,224);
+  color: black;
+}
+
+input[type=submit]{
+  font-family: Gotham;
+  width: 100%;
+  background-color: rgba(92,43,107,1);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+option{
+	font-family: Gotham;
+	cursor: pointer;
+}
+
+h1{
+	font-family: Gotham;
+	color: rgba(92,43,107,1);
+	text-align: center;
+}
+
+h4{
+	font-family: Gotham;
+	color:rgba(93,93,93,1);
+	text-align: center;
+}
+
+a{
+	color:#FFFFFF
+	text-align: center;
+    text-decoration: none;
+}
+
